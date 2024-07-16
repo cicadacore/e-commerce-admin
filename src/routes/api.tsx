@@ -1,0 +1,25 @@
+import { API_URL } from '../utils';
+
+export const apiRoutes = {
+  login: `${API_URL}/admin/login`,
+  profile: `${API_URL}/admin/getProfile`,
+  logout: `${API_URL}/admin/logout`,
+  changePassword: `${API_URL}/admin/changePassword`,
+  categories: `${API_URL}/admin/categoriesList`,
+  categoriesFullList: `${API_URL}/admin/categoriesFullList`,
+  changeCategoryStatus: `${API_URL}/admin/changeCategoryStatus`,
+  getCategoryDetail: `${API_URL}/admin/getCategoryDetail`,
+  editUser: `${API_URL}/admin/editUser`,
+  addCategory: `${API_URL}/admin/addCategory`,
+  editCategory: `${API_URL}/admin/editCategory`,
+  deleteCategory: `${API_URL}/admin/deleteCategory`,
+  deleteThumbnail: `${API_URL}/admin/deleteThumbnail`,
+  products: `${API_URL}/product/productList`,
+  changeProductStatus: `${API_URL}/product/changeProductStatus`,
+  getProductDetails: `${API_URL}/product/getProductDetails`,
+  deleteProduct: `${API_URL}/product/deleteProduct`,
+  editProduct: `${API_URL}/product/editProduct`,
+  addProduct: `${API_URL}/product/addProduct`,
+  users: `https://reqres.in/api/users`,
+  reviews: `${API_URL}/unknown`,
+};

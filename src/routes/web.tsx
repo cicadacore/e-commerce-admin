@@ -1,0 +1,15 @@
+export const webRoutes = {
+  home: '/',
+  login: '/login',
+  forgotPassword: '/forgotPassword',
+  changePassword: '/changePassword',
+  profile: '/profile',
+  editProfile: '/editProfile',
+  logout: '/logout',
+  dashboard: '/dashboard',
+  products: '/products',
+  addProduct: '/products/addProduct',
+  editProduct: '/products/editProduct',
+  customers: '/customers',
+  categories: '/categories',
+};
